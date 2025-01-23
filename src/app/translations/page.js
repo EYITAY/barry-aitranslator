@@ -23,7 +23,7 @@ export default async function Page() {
   const data = await getData(userId);
   return (
     <>
-      <h1 className="text-3xl fond-bold text-center mb-8 text-gray-800">Translations</h1>
+      <h1 className="text-3xl fond-bold text-center mb-8 text-gray-900">Translations</h1>
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {data.map((group, index) => (
           <TranslationCard
